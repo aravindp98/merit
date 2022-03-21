@@ -35,4 +35,5 @@ jobs:
         run: |
           echo Add other actions to build,
           echo test, and deploy your project.
-          pytho3 new2.py
+          python3 install
+          python3 new2.py
