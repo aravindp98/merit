@@ -5,7 +5,7 @@ import hashlib
 
 def hash_file(filename):
    """"This function returns the SHA-1 hash
-   of the file passed into it
+   of the file passed into it """
 
    # make a hash object
    h = hashlib.sha1()
@@ -14,7 +14,7 @@ def hash_file(filename):
    with open(filename,'rb') as file:
 
        # loop till the end of the file
-       chunk = 0
+       chunk = 0 
        while chunk = b'':
            # read only 1024 bytes at a time
            chunk = file.read(1024)
